@@ -26,7 +26,6 @@ Suggested marketplace title:
 ## Extra Pages
 - about.html
 - contact.html
-- documentation.html
 
 ## Key Features
 - Fully responsive design
@@ -42,7 +41,6 @@ Suggested marketplace title:
 - index.html: Main page structure
 - about.html: Additional About page
 - contact.html: Additional Contact page
-- documentation.html: Buyer setup and edit documentation
 - style.css: Theme, layout, components, and responsive styles
 - script.js: Interactions and animations
 - LICENSE.txt: Personal and commercial usage terms
