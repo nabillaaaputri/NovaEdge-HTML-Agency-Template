@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaEdge | Modern Agency Landing Page Template</title>
+    <meta
+      name="description"
+      content="NovaEdge is a modern business and agency landing page template built with HTML, CSS, and JavaScript."
+    />
+    <meta name="keywords" content="agency template, html template, landing page" />
+    <meta name="author" content="NovaEdge Studio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-loader" id="pageLoader" aria-label="Loading page">
+      <div class="loader-spinner" aria-hidden="true"></div>
+    </div>
+
+    <div class="bg-orb orb-1" aria-hidden="true"></div>
+    <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+    <header class="site-header" id="home">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="NovaEdge Home">
+          <span class="brand-mark">N</span>
+          <span class="brand-text">NovaEdge</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Projects</a>
+          <div class="nav-dropdown">
+            <span class="nav-dropdown-toggle">Pages</span>
+            <div class="dropdown-menu">
+              <a href="#testimonials">Testimonials</a>
+              <a href="#pricing">Pricing</a>
+              <a href="#faq">FAQ</a>
+            </div>
+          </div>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="mode-toggle" id="modeToggle" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <span class="mode-icon icon-moon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.5 2.5C10 3.3 6.5 7.2 6.5 12C6.5 17.4 10.9 21.8 16.3 21.8C18.4 21.8 20.4 21.1 22 19.9C17.5 19.1 14 15.1 14 10.3C14 7.2 15.5 4.5 18 2.8C16.9 2.4 15.7 2.3 14.5 2.5Z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="mode-icon icon-sun" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="4.5" fill="currentColor"/>
+              <path d="M12 2V5M12 19V22M4.9 4.9L7 7M17 17L19.1 19.1M2 12H5M19 12H22M4.9 19.1L7 17M17 7L19.1 4.9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-pad">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Modern Business Template</p>
+            <h1>Scale your brand with a landing page built to convert.</h1>
+            <p class="hero-sub">
+              NovaEdge helps startups, agencies, and local businesses launch a professional web presence in days, not months.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary ripple" href="#contact" aria-label="Start project discussion">Get Started</a>
+              <a class="btn btn-ghost ripple" href="#portfolio" aria-label="View portfolio projects">View Projects</a>
+            </div>
+            <ul class="hero-points">
+              <li>Fast and responsive layout</li>
+              <li>Trust-focused visual hierarchy</li>
+              <li>Ready-to-edit sections</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="mockup-card">
+              <div class="mockup-topbar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-body">
+                <div class="stat-card">
+                  <p>Revenue Growth</p>
+                  <h3>+186%</h3>
+                  <small>in 6 months</small>
+                </div>
+                <div class="chart-bars">
+                  <span style="--h: 50%"></span>
+                  <span style="--h: 75%"></span>
+                  <span style="--h: 60%"></span>
+                  <span style="--h: 90%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section-pad" id="services">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Our Services</p>
+            <h2>Complete solutions to launch and scale your web presence.</h2>
+          </div>
+          <div class="service-grid">
+            <article class="card reveal">
+              <h3>Website Templates</h3>
+              <p>Ready-to-deploy designs for landing pages, portfolios, and business sites. Fully responsive and fast-loading.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Customization Support</h3>
+              <p>Our team helps you personalize colors, fonts, and copy to match your brand identity in minutes.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Performance Optimization</h3>
+              <p>Lightning-fast load times and optimized code ensure your visitors have the best experience possible.</p>
+            </article>
+            <article class="card reveal">
+              <h3>24/7 Email Support</h3>
+              <p>Got questions? Our responsive support team is here to help you succeed with your new site.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Who We Are</p>
+            <h2>We believe great design strengthens trust and drives results.</h2>
+          </div>
+          <div class="about-grid">
+            <p class="about-text reveal">
+              NovaEdge was founded by a team of designers and developers passionate about helping businesses launch beautifully online. We combine timeless design principles with modern technology to create templates that truly sell.
+            </p>
+            <p class="about-text reveal">
+              Every template is tested across browsers and devices to guarantee a seamless experience. With thousands of happy customers worldwide, we're committed to your success—from launch day forward.
+            </p>
+          </div>
+          <div class="team-grid reveal">
+            <article>
+              <img src="images/team-1.svg" alt="Portrait illustration of Alex Pratama, founder" loading="lazy" />
+              <h4>Alex Pratama</h4>
+              <p>Founder</p>
+            </article>
+            <article>
+              <img src="images/team-2.svg" alt="Portrait illustration of Nadia Putri, lead designer" loading="lazy" />
+              <h4>Nadia Putri</h4>
+              <p>Lead Designer</p>
+            </article>
+            <article>
+              <img src="images/team-3.svg" alt="Portrait illustration of Rizky Maulana, front-end engineer" loading="lazy" />
+              <h4>Rizky Maulana</h4>
+              <p>Front-End Engineer</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section-pad" id="portfolio">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Selected projects with measurable business outcomes.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project reveal">
+              <img src="images/project-1.svg" alt="Preview of fintech dashboard project interface" loading="lazy" />
+              <div class="project-overlay">
+                <h3>Fintech Dashboard</h3>
+                <p>+34% user retention after redesign.</p>
+              </div>
+            </article>
+            <article class="project reveal">
+              <img src="images/project-2.svg" alt="Preview of health startup website homepage" loading="lazy" />
+              <div class="project-overlay">
+                <h3>Health Startup Site</h3>
+                <p>2.1x increase in demo requests.</p>
+              </div>
+            </article>
+            <article class="project reveal">
+              <img src="images/project-3.svg" alt="Preview of logistics platform monitoring dashboard" loading="lazy" />
+              <div class="project-overlay">
+                <h3>Logistics Platform</h3>
+                <p>Reduced bounce rate by 27%.</p>
+              </div>
+            </article>
+            <article class="project reveal">
+              <img src="images/project-4.svg" alt="Preview of e-commerce brand campaign page" loading="lazy" />
+              <div class="project-overlay">
+                <h3>E-Commerce Brand</h3>
+                <p>+52% conversion on product launch.</p>
+              </div>
+            </article>
+            <article class="project reveal">
+              <img src="images/project-5.svg" alt="Preview of SaaS landing page user journey" loading="lazy" />
+              <div class="project-overlay">
+                <h3>SaaS Landing Page</h3>
+                <p>Generated 4,000 leads in 3 months.</p>
+              </div>
+            </article>
+            <article class="project reveal">
+              <img src="images/project-6.svg" alt="Preview of education platform course landing page" loading="lazy" />
+              <div class="project-overlay">
+                <h3>Education Platform</h3>
+                <p>+41% trial signups from paid ads.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials section-pad" id="testimonials">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Testimonials</p>
+            <h2>Trusted by founders and growing businesses.</h2>
+          </div>
+
+          <div class="testimonial-slider reveal" aria-label="Client testimonials">
+            <button class="slider-btn prev" id="prevTestimonial" aria-label="Previous testimonial">&#10094;</button>
+            <div class="slides" id="testimonialTrack">
+              <article class="slide active">
+                <p>
+                  "NovaEdge delivered a premium landing page that finally matched our product quality. Our conversion rate improved in the first week."
+                </p>
+                <h4>Daniel Kusuma</h4>
+                <span>CEO, CloudWare</span>
+              </article>
+              <article class="slide">
+                <p>
+                  "The design feels modern, the performance is excellent, and the structure is easy for our team to update. Highly recommended."
+                </p>
+                <h4>Sinta Aulia</h4>
+                <span>Marketing Lead, FitHouse</span>
+              </article>
+              <article class="slide">
+                <p>
+                  "From messaging to layout, every section had a clear purpose. We saw better lead quality and stronger brand trust."
+                </p>
+                <h4>Rahmat Hidayat</h4>
+                <span>Co-Founder, LogiChain</span>
+              </article>
+            </div>
+            <button class="slider-btn next" id="nextTestimonial" aria-label="Next testimonial">&#10095;</button>
+          </div>
+
+          <div class="slider-dots" id="sliderDots" aria-label="Select testimonial"></div>
+        </div>
+      </section>
+
+      <section class="cta-banner section-pad" id="cta" style="background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); color: white; text-align: center;">
+        <div class="container" style="max-width: 700px;">
+          <h2 style="margin-bottom: 16px; color: white;">Ready to Launch Your Presence?</h2>
+          <p style="margin-bottom: 32px; font-size: 1.1rem; opacity: 0.95;">
+            Join hundreds of brands that trust NovaEdge to scale their business online.
+          </p>
+          <a href="#contact" class="btn btn-light ripple" style="background: white; color: var(--primary); border: none; box-shadow: var(--shadow-lg);" aria-label="Start your project now">Start Your Project</a>
+        </div>
+      </section>
+
+      <section class="pricing section-pad" id="pricing">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Pricing</p>
+            <h2>Choose a package that fits your growth stage.</h2>
+          </div>
+          <div class="pricing-grid">
+            <article class="price-card reveal">
+              <h3>Basic</h3>
+              <p class="price">$79</p>
+              <ul>
+                <li>✓ Single page template</li>
+                <li>✓ Responsive layout</li>
+                <li>✓ Email support</li>
+              </ul>
+              <a href="#contact" class="btn btn-ghost ripple" aria-label="Select basic plan">Select Plan</a>
+            </article>
+            <article class="price-card highlight reveal">
+              <p class="badge">Popular</p>
+              <h3>Standard</h3>
+              <p class="price">$129</p>
+              <ul>
+                <li>✓ Up to 5 sections customization</li>
+                <li>✓ Scroll animations</li>
+                <li>✓ Priority support</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary ripple" aria-label="Select standard plan">Select Plan</a>
+            </article>
+            <article class="price-card reveal">
+              <h3>Premium</h3>
+              <p class="price">$199</p>
+              <ul>
+                <li>✓ Full customization setup</li>
+                <li>✓ Dark mode + slider features</li>
+                <li>✓ Launch consultation</li>
+              </ul>
+              <a href="#contact" class="btn btn-ghost ripple" aria-label="Select premium plan">Select Plan</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section-pad" id="faq">
+        <div class="container" style="max-width: 800px;">
+          <div class="section-head reveal">
+            <p class="eyebrow">Frequently Asked</p>
+            <h2>Got questions? We have answers.</h2>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary class="faq-trigger">
+                <span>What's included in the template?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-body">
+                <p>All packages include HTML, CSS, JavaScript, documentation, and SVG assets. Premium plans include a launch consultation and priority email support.</p>
+              </div>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary class="faq-trigger">
+                <span>Can I use this for client projects?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-body">
+                <p>Yes, both personal and commercial use are permitted. You can use NovaEdge for client projects without additional licensing fees.</p>
+              </div>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary class="faq-trigger">
+                <span>How do I customize the colors and fonts?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-body">
+                <p>All colors and fonts are easily customizable through CSS variables at the top of style.css. See the documentation page for a step-by-step guide.</p>
+              </div>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary class="faq-trigger">
+                <span>Is the template mobile responsive?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-body">
+                <p>Yes, NovaEdge is fully responsive and optimized for desktop, tablet, and mobile devices. All features work seamlessly across screen sizes.</p>
+              </div>
+            </details>
+
+            <details class="faq-item reveal">
+              <summary class="faq-trigger">
+                <span>Do you offer refunds?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </summary>
+              <div class="faq-body">
+                <p>We offer a 30-day money-back guarantee. If you're not satisfied with NovaEdge, contact support for a full refund—no questions asked.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog section-pad" id="blog">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Latest Articles</p>
+            <h2>Stay updated with design trends and web tips.</h2>
+          </div>
+
+          <div class="blog-grid">
+            <article class="blog-card reveal">
+              <div class="blog-image">
+                <img src="images/project-1.svg" alt="Guide to converting visits into paying customers" loading="lazy" />
+              </div>
+              <div class="blog-content">
+                <p class="blog-date">Nov 18, 2024</p>
+                <h3>How to Convert Visitors into Paying Customers</h3>
+                <p>Discover the psychology behind effective landing pages and how to structure your messaging for maximum impact.</p>
+                <a href="#" class="read-more ripple" aria-label="Read article: How to Convert Visitors into Paying Customers">Read More →</a>
+              </div>
+            </article>
+
+            <article class="blog-card reveal">
+              <div class="blog-image">
+                <img src="images/project-2.svg" alt="Best practices for responsive web design" loading="lazy" />
+              </div>
+              <div class="blog-content">
+                <p class="blog-date">Nov 12, 2024</p>
+                <h3>Responsive Design: Best Practices for 2024</h3>
+                <p>Learn how to ensure your website looks perfect on all devices and provides a seamless user experience across screens.</p>
+                <a href="#" class="read-more ripple" aria-label="Read article: Responsive Design: Best Practices for 2024">Read More →</a>
+              </div>
+            </article>
+
+            <article class="blog-card reveal">
+              <div class="blog-image">
+                <img src="images/project-3.svg" alt="Building trust through visual hierarchy and design" loading="lazy" />
+              </div>
+              <div class="blog-content">
+                <p class="blog-date">Nov 5, 2024</p>
+                <h3>Building Trust: Visual Hierarchy and Design</h3>
+                <p>Explore how proper typography, spacing, and contrast can guide visitors through your page and build credibility.</p>
+                <a href="#" class="read-more ripple" aria-label="Read article: Building Trust: Visual Hierarchy and Design">Read More →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Tell us about your project.</h2>
+            <p>Fill out the form and we will get back to you within 24 hours.</p>
+            <div class="contact-map" aria-hidden="true">
+              <span>Map Placeholder</span>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-card">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="brand" aria-label="NovaEdge Home">
+              <span class="brand-mark">N</span>
+              <span class="brand-text">NovaEdge</span>
+            </a>
+            <p>
+              Build stronger digital presence with strategic design, conversion-focused layouts,
+              and production-ready front-end components.
+            </p>
+            <ul class="footer-meta">
+              <li>Jakarta, Indonesia</li>
+              <li>+62 812-0000-1122</li>
+              <li>hello@novaedge.studio</li>
+            </ul>
+            <div class="socials">
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="LinkedIn">LinkedIn</a>
+              <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-title">Quick Links</h4>
+            <ul class="footer-list">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Projects</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 NovaEdge. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+      <span aria-hidden="true">↑</span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
