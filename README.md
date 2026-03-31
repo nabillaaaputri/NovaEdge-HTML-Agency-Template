@@ -1,57 +1,69 @@
-# NovaEdge - Modern Agency Landing Page Template
+# NovaEdge - Modern Agency HTML Template
 
-A modern, responsive, and conversion-focused front-end template for business, startup, agency, and UMKM websites.
+NovaEdge is a premium, responsive HTML template for agencies, startups, studios, and service businesses. The project is designed for fast customization and marketplace distribution.
 
-## Product Positioning
-Suggested marketplace title:
-- Modern Agency Landing Page Template
-- Creative Business HTML Template
-- Startup and Agency Website Template
+## Features
+- Modern multi-section landing page
+- Additional About and Contact pages
+- Clean responsive layout for desktop, tablet, and mobile
+- Sticky navigation and smooth scrolling
+- Dark mode toggle with saved preference
+- Scroll reveal animations and hover interactions
+- Testimonial slider
+- Contact form UI validation (front-end only)
+- Local asset structure ready for marketplace upload
 
 ## Tech Stack
 - HTML5
 - CSS3
 - Vanilla JavaScript
 
-## Included Sections
-- Hero
-- Services
-- About Us
-- Portfolio / Projects
-- Testimonials (slider)
-- Pricing
-- Contact Form
-- Footer
+## Project Structure
+```text
+.
+|-- index.html
+|-- pages/
+|   |-- about.html
+|   `-- contact.html
+|-- assets/
+|   |-- css/
+|   |   `-- style.css
+|   |-- js/
+|   |   `-- script.js
+|   `-- images/
+|       |-- favicon.svg
+|       `-- ...image files
+|-- docs/
+|   `-- GUMROAD-LISTING.md
+|-- LICENSE.txt
+|-- CHANGELOG.md
+`-- README.md
+```
 
-## Extra Pages
-- about.html
-- contact.html
+## How To Run Locally
+1. Download or clone the project.
+2. Open the project folder in your editor.
+3. Open `index.html` directly in browser, or run a local static server.
 
-## Key Features
-- Fully responsive design
-- Sticky navigation
-- Smooth scrolling
-- Scroll reveal animations
-- Portfolio hover effects
-- Testimonial slider with autoplay
-- Front-end form validation
-- Dark mode toggle with saved preference
+Optional local server examples:
 
-## File Structure
-- index.html: Main page structure
-- about.html: Additional About page
-- contact.html: Additional Contact page
-- style.css: Theme, layout, components, and responsive styles
-- script.js: Interactions and animations
-- LICENSE.txt: Personal and commercial usage terms
-- images/: Local image assets and placeholders
+```bash
+# Python
+python -m http.server 5500
+```
+
+Then open `http://localhost:5500`.
 
 ## Customization Guide
-1. Replace brand name and text content in index.html.
-2. Swap placeholder images with your own assets.
-3. Update colors in :root variables in style.css.
-4. Edit testimonial and pricing data directly in index.html.
+1. Edit text content in `index.html` and files in `pages/`.
+2. Replace images in `assets/images/` with your own files.
+3. Update design tokens in `:root` inside `assets/css/style.css`.
+4. Adjust interactions in `assets/js/script.js` when needed.
 
-## Notes
-- This template is front-end only.
-- Contact form submit is a UI demo without backend integration.
+## Demo
+- Live preview: https://novaedge-template.vercel.app/
+
+## License
+This template is licensed for personal and commercial end projects.
+Reselling or redistributing the source template files is not allowed.
+See `LICENSE.txt` for full terms.

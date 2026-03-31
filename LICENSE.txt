@@ -1,17 +1,17 @@
-
 NovaEdge Template License
 
 Copyright (c) 2026 NovaEdge Studio
 
-Permission is granted to use this template for personal and commercial projects.
+Permission is granted to use this template in personal and commercial end products.
 
-You may:
-- Edit and customize the template.
-- Use it in client projects.
-- Deploy it for end products.
+Allowed:
+- Modify and customize the template.
+- Use it in your own projects and client projects.
+- Publish deployed websites based on this template.
 
-You may not:
-- Resell, redistribute, or sublicense the source files as a standalone template package.
-- Claim the original template as your own base work.
+Not allowed:
+- Resell, redistribute, repackage, or sublicense the source files as a template.
+- Upload source files to marketplaces, repositories, or free download sites.
+- Claim the original template as fully your own work.
 
-This template is provided "as is" without warranty of any kind.
+This template is provided "as is", without warranty of any kind, express or implied.
